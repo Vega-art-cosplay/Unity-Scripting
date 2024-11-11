@@ -134,6 +134,8 @@ GameObject:
   - component: {fileID: 506218319}
   - component: {fileID: 506218318}
   - component: {fileID: 506218320}
+  - component: {fileID: 506218321}
+  - component: {fileID: 506218322}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -219,6 +221,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Welcome to Unity Scripting
+--- !u!114 &506218321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506218317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 141246bcbb0cb6646bb42a91720c9fca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: Greg
+  playerAge: 99
+  playerWeight: 50
+  hasKey: 1
+--- !u!114 &506218322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506218317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a50a537e8790264dbb9919bcbd7e667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  integerVariable: 1
+  floatVariable: 2
+  stringVariable: qwerty
+  booleanVariable: 1
 --- !u!1 &636674145
 GameObject:
   m_ObjectHideFlags: 0
